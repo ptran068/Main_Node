@@ -1,0 +1,31 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Express api",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --inspect",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cedric",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-validate": "0.0.8",
+    "express-validation": "^1.0.2",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.4.0",
+    "validate": "^4.5.1"
+  }
+}
