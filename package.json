@@ -23,7 +23,7 @@
     "express-validation": "^1.0.2",
     "joi": "^14.3.1",
     "joi-objectid": "^2.0.0",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "md5": "^2.2.1",
     "mongoose": "^5.4.0",
     "validate": "^4.5.1"
